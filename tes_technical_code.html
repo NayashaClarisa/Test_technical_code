@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+    <title>Tes Technical Coding</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        form{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input{
+            margin-bottom: 10px;
+            padding: 8px;
+            font-size: 16px;
+        }
+        button{
+            flex: 1;
+            margin-right: 5px;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .button-container{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test Technical Coding</h1>
+
+    <form id="form">
+        <label for = "inputAngka">Input Angka: </label>
+        <input type="number" id="inputAngka" name="inputAngka" required>
+
+        <div class="button-container">
+            <button type="button">Generate Segitiga</button>
+            <button type="button">Generate Bilangan Ganjil</button>
+            <button type="button">Generate Bilangan Prima</button>
+        </div>
+    </form>
+</body>
+</html>
